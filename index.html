@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversario ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Dancing+Script:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">❤️</div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#razones">Razones</a></li>
+            <li><a href="#elige">Por qué te elijo</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#carta">Carta</a></li>
+        </ul>
+    </nav>
+
+    <!-- Control de música -->
+    <button class="music-control" id="musicControl" aria-label="Control de música">🔊</button>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+        <div class="hero-carousel">
+            <div class="hero-slide active" style="background-image: url('fotos/paginaweb/Pagina web/primerahero.jpg')"></div>
+            <div class="hero-slide" style="background-image: url('fotos/paginaweb/Pagina web/besoclub.jpg')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Feliz Aniversario ❤️</h1>
+            <p class="hero-date fade-in">5 de Mayo</p>
+            <p class="hero-text fade-in">Hoy celebramos nuestro amor, nuestra historia y todos los momentos que hemos compartido juntos.</p>
+            <div class="scroll-down fade-in">
+                <span>Descubre más</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: RAZONES POR LAS QUE TE AMO -->
+    <section class="section razones" id="razones">
+        <div class="container">
+            <h2 class="section-title fade-in">Razones por las que te amo</h2>
+            <p class="section-subtitle fade-in">Cada imagen cuenta una parte de nuestra historia</p>
+            
+            <div class="carousel-wrapper fade-in">
+                <button class="carousel-btn prev-btn" aria-label="Anterior">❮</button>
+                <div class="carousel-container">
+                    <div class="carousel-track" id="razonesCarousel">
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240505_101824.jpg" alt="Razón 1">
+                            </div>
+                            <p class="carousel-caption">Tu sonrisa ilumina mis días</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240505_104531.jpg" alt="Razón 2">
+                            </div>
+                            <p class="carousel-caption">Tu forma de amarme sin condiciones</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240505_124334.jpg" alt="Razón 3">
+                            </div>
+                            <p class="carousel-caption">Tu fuerza ante las dificultades</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240505_132621.jpg" alt="Razón 4">
+                            </div>
+                            <p class="carousel-caption">Cómo haces que lo ordinario sea especial</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240505_133132.jpg" alt="Razón 5">
+                            </div>
+                            <p class="carousel-caption">Tu voz transmitiendo paz</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240623_153644.jpg" alt="Razón 6">
+                            </div>
+                            <p class="carousel-caption">Nuestras noches de conversación</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240715_102327.jpg" alt="Razón 7">
+                            </div>
+                            <p class="carousel-caption">Tu energía contagiosa</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240727_113111.jpg" alt="Razón 8">
+                            </div>
+                            <p class="carousel-caption">Tu creatividad y pasión</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240803_074948.jpg" alt="Razón 9">
+                            </div>
+                            <p class="carousel-caption">La complicidad que tenemos</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <img src="fotos/paginaweb/Pagina web/20240803_090412.jpg" alt="Razón 10">
+                            </div>
+                            <p class="carousel-caption">Porque eres simplemente tú</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn next-btn" aria-label="Siguiente">❯</button>
+            </div>
+            <div class="carousel-dots" id="razonesDots"></div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: POR QUÉ TE ELIJO -->
+    <section class="section elegir" id="elige">
+        <div class="container">
+            <h2 class="section-title fade-in">Por qué te elijo una y otra vez</h2>
+            
+            <div class="cards-grid">
+                <div class="card fade-in">
+                    <div class="card-icon">💖</div>
+                    <h3>Elegí tu corazón</h3>
+                    <p>Porque late al ritmo del mío y porque en cada latido encuentro un refugio seguro donde ser yo mismo.</p>
+                </div>
+                <div class="card fade-in">
+                    <div class="card-icon">🌟</div>
+                    <h3>Elegí tu esencia</h3>
+                    <p>Porque eres auténtica, real y maravillosa. No cambiaría ni un solo aspecto de quien eres.</p>
+                </div>
+                <div class="card fade-in">
+                    <div class="card-icon">🎯</div>
+                    <h3>Elegí nuestro futuro</h3>
+                    <p>Porque quiero construir cada sueño contigo, enfrentar cada reto a tu lado y celebrar cada victoria juntos.</p>
+                </div>
+            </div>
+
+            <!-- Carrusel estilo diferente (mosaic) -->
+            <div class="mosaic-carousel fade-in">
+                <div class="mosaic-grid" id="mosaicCarousel">
+                    <div class="mosaic-item large active">
+                        <img src="fotos/paginaweb/Pagina web/20240810_180348.jpg" alt="Momento especial">
+                        <div class="mosaic-overlay">Un momento inolvidable</div>
+                    </div>
+                    <div class="mosaic-item">
+                        <img src="fotos/paginaweb/Pagina web/20250114_154614.jpg" alt="Momento especial">
+                        <div class="mosaic-overlay">Simplemente nosotros</div>
+                    </div>
+                    <div class="mosaic-item">
+                        <img src="fotos/paginaweb/Pagina web/20250111_101416.jpg" alt="Momento especial">
+                        <div class="mosaic-overlay">Atardecer</div>
+                    </div>
+                    <div class="mosaic-item">
+                        <img src="fotos/paginaweb/Pagina web/20241229_175247.jpg" alt="Momento especial">
+                        <div class="mosaic-overlay">Riendo juntos</div>
+                    </div>
+                    <div class="mosaic-item">
+                        <img src="fotos/paginaweb/Pagina web/20250308_121159.jpg" alt="Momento especial">
+                        <div class="mosaic-overlay">Un día especial</div>
+                    </div>
+                </div>
+                <div class="mosaic-nav">
+                    <button class="mosaic-btn prev" aria-label="Anterior">❮</button>
+                    <button class="mosaic-btn next" aria-label="Siguiente">❯</button>
+                </div>
+                <div class="mosaic-dots" id="mosaicDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: GALERÍA COMPLETA -->
+    <section class="section galeria" id="galeria">
+        <div class="container">
+            <h2 class="section-title fade-in">Nuestra Galería de Recuerdos</h2>
+            <p class="section-subtitle fade-in">30 momentos especiales capturados en el tiempo</p>
+            
+            <div class="gallery-grid fade-in">
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240505_101824.jpg" alt="Recuerdo 1"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240505_104531.jpg" alt="Recuerdo 2"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240505_124334.jpg" alt="Recuerdo 3"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240505_132621.jpg" alt="Recuerdo 4"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240505_133132.jpg" alt="Recuerdo 5"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240505_162737.jpg" alt="Recuerdo 6"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240623_153644.jpg" alt="Recuerdo 7"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240714_093850.jpg" alt="Recuerdo 8"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240714_102203.jpg" alt="Recuerdo 9"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240715_102327.jpg" alt="Recuerdo 10"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240727_113111.jpg" alt="Recuerdo 11"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240803_074948.jpg" alt="Recuerdo 12"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240803_090412.jpg" alt="Recuerdo 13"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240803_090511.jpg" alt="Recuerdo 14"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240810_180348.jpg" alt="Recuerdo 15"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20240810_182353.jpg" alt="Recuerdo 16"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20241214_184417.jpg" alt="Recuerdo 17"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20241229_175247.jpg" alt="Recuerdo 18"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250111_101416.jpg" alt="Recuerdo 19"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250114_154614.jpg" alt="Recuerdo 20"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250114_160839.jpg" alt="Recuerdo 21"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250308_121159.jpg" alt="Recuerdo 22"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250415_172758.jpg" alt="Recuerdo 23"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250505_134430.jpg" alt="Recuerdo 24"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250505_134534.jpg" alt="Recuerdo 25"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20250505_160557.jpg" alt="Recuerdo 26"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20251205_173152.jpg" alt="Recuerdo 27"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/20251206_141411.jpg" alt="Recuerdo 28"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/IMG-20231221-WA0020.jpg" alt="Recuerdo 29"></div>
+                <div class="gallery-item"><img src="fotos/paginaweb/Pagina web/IMG-20240113-WA0088.jpg" alt="Recuerdo 30"></div>
+             </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CARTA DE AMOR -->
+    <section class="section carta" id="carta">
+        <div class="carta-bg"></div>
+        <div class="container">
+            <div class="carta-content fade-in">
+                <h2 class="carta-title">Mi amor hermoso,</h2>
+                
+                <div class="carta-text">
+                    <p>Hoy, 5 de mayo, celebramos otro año de nuestras vidas entrelazadas. Y aunque las fechas son importantes, lo que realmente importa es lo que hemos construido día tras día.</p>
+
+                    <p>Quiero que sepas que elegirte no fue una decisión que tomé una sola vez; te elijo cada mañana cuando despierto, te elijo en cada decisión que tomo, te elijo en cada sueño que persigo porque todos incluyen tu sonrisa al final del camino.</p>
+
+                    <p>Has sido mi refugio en las tormentas, mi alegría en los días grises y mi mayor motivo para ser mejor persona. Tu amor me ha enseñado que el amor verdadero no es perfecto, es real. No es fácil, es comprometido. No es temporal, es eterno.</p>
+
+                    <p>Gracias por cada sacrificio silencioso, por cada palabra de aliento, por cada momento de paciencia cuando yo no la tengo. Gracias por ver en mí lo que a veces yo no puedo ver.</p>
+
+                    <p>Hoy celebro tu vida, nuestra historia y todos los capítulos que nos quedan por escribir. Porque contigo, cada día es una nueva aventura, cada momento es un tesoro y cada latido tiene un propósito.</p>
+
+                    <p class="carta-firma">Te amo con todo mi ser,<br>
+                    <span class="firma-nombre">Tu enamorado</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Hecho con amor ❤️</p>
+            <p class="footer-date">5 de mayo</p>
+            <div class="footer-hearts">
+                <span>💕</span>
+                <span>💖</span>
+                <span>💕</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX PARA GALERÍA -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img id="lightboxImage" src="" alt="">
+    </div>
+
+    <audio id="backgroundMusic" loop preload="auto" autoplay>
+        <source src="musica/tedareudio.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
