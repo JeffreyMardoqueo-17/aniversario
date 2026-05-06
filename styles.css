@@ -178,8 +178,8 @@ body {
     height: 100%;
     background: linear-gradient(
         to bottom,
-        rgba(180, 119, 146, 0.4),
-        rgba(248, 243, 234, 0.6)
+        rgba(180, 119, 146, 0),
+        rgba(248, 243, 234, 0.131)
     );
     z-index: 1;
 }
